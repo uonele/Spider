@@ -124,6 +124,6 @@ class Login():
         self.savePage(text, self.pagePath)
 if __name__=='__main__':
     account = '13027629892'         # 知乎账号，此处填写手机号
-    password = 'wwlDSG1996'         # 密码
+    password = '********'         # 密码
     login = Login()
     login.login(account,password)
