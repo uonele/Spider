@@ -1,4 +1,4 @@
-#-*- coding:utf-8 -*-
+﻿#-*- coding:utf-8 -*-
 import urllib
 import urllib2
 import re
@@ -33,8 +33,8 @@ class JWOS:
     def getPage(self,inputCheckCode):
         postData={
                   '__VIEWSTATE':'dDwyODE2NTM0OTg7Oz5oXHiwqruyxtrLZJG28i4AOKLFhg==',
-                  'txtUserName':'201416920411',
-                  'TextBox2':'wwl19961218',
+                  'txtUserName':'201416******',
+                  'TextBox2':'******',
                   'txtSecretCode':inputCheckCode,
                   'RadioButtonList1':'学生',
                   'Button1':'',
